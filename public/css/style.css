@@ -38,6 +38,7 @@ nav{
 
 #logo-packages{
     width: 30%;
+    display: flex;
 }
 
 #logo-packages>img{

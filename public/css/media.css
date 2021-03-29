@@ -118,7 +118,7 @@
 
 /* 320px à 768px */
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     * {
         margin: 0;
         padding: 0;
@@ -281,7 +281,7 @@
 
     .div-footer {
         display: flex;
-        flex-direction: column;
+        
         background-color: #393a3b;
         color: white;
         font-weight: bolder;
@@ -290,13 +290,15 @@
     }
 
     .div-footer>div>p {
-        margin-left: 13px;
+        display: none;
+        /* margin-left: 13px;
         margin-top: 50px;
         margin-bottom: 40px;
-        text-align: left;
+        text-align: left; */
     }
 
     .div-footer>div>img {
+        align-items: center;
         width: 45px;
         margin: 10px;
     }
